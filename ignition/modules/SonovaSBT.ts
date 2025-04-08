@@ -4,7 +4,7 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const input_baseTokenURI =
-  "ipfs://bafkreiftxzifx7jupyd5zds2ban5sac3gjbfub5f7in2ezzc64ummlutua";
+  "ipfs://bafkreicqngst4355kfsqxev3gpsoapglynqf45dceje7fy74yqxr6urd3q";
 
 const SonovaModule = buildModule("SonovaModule", (m) => {
   const baseTokenURI = m.getParameter("baseTokenURI", input_baseTokenURI);
